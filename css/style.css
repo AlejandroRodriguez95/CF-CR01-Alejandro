@@ -29,8 +29,15 @@ header h3{
 
 /* Navbar */
 
+navbar a{
+    text-decoration: none;
+    color: white;
+}
+navbar a:hover{
+    color: gray;
+}
 navbar li{
-    display: inline;
+    list-style: none;
     padding-right: 30px;
     float: right;
 }
